@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css?family=Anton");
+// font-family: 'Anton', sans-serif;
+$font-stack: Anton, sans-serif;
+
+// cream color
+$cream-color: #e9ecde;
+//orange color
+$orange-color: #ff7044;
+//yellow
+$yellow-color: #ffce39;
+//green
+$green-color: #5c5f46;
+* {
+  border: 2px solid red;
+}
+body {
+  font: 100% $font-stack;
+  background-color: $cream-color;
+  display: flex;
+}
+#increment {
+  text-decoration: none;
+  margin-bottom: 20px;
+  border: 2px solid red;
+  color: $orange-color;
+  background-color: $yellow-color;
+  align-content: center;
+}
+#deincrement {
+  text-decoration: none;
+  border: 2px solid red;
+  color: $orange-color;
+  background-color: $yellow-color;
+}
